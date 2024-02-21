@@ -1,0 +1,72 @@
+==> mode 0: unit test
+
+
+
+=============== BEGIN UNIT TEST ================
+
+================================================
+
+======> Inserting Fruits:
+ins(banana) = true
+ins(apple) = true
+ins(peach) = true
+ins(orange) = true
+ins(apple) = false
+ins(prune) = true
+ins(pear) = true
+ins(plum) = true
+Here is the final Fruit Tree:
+G=prune:(G=banana:(<apple:970><banana:293>)
+--------|G=peach:(<orange:697><peach:957>)
+--------|G=prune:(<pear:284><plum:612><prune:920>)
+
+
+ checkTree succeeds!
+
+======> Inserting sqrt(3) digits:
+ins(1) = true
+ins(7) = true
+ins(3) = true
+ins(2) = true
+ins(0) = true
+ins(5) = true
+ins(0) = false
+ins(8) = true
+ins(0) = false
+Here is the final sqrt(3) Tree:
+G=8:(G=2:(<0:0><1:1><2:2>)
+----|G=5:(<3:3><5:5>)
+----|G=8:(<7:7><8:8>)
+
+
+ checkTree succeeds!
+
+======> Searching Fruits
+Fruit Tree: search(banana) fails
+Fruit Tree: search(cherry) fails
+
+======> Searching Digits
+Sqrt3 Tree: search(3) succeeds
+Sqrt3 Tree: search(4) fails
+
+=============== deleting fruits
+Fruit Tree after DELETE(peach):
+G=prune:(G=banana:(<apple:970><banana:293>)
+--------|G=peach:(<orange:697><peach:957>)
+--------|G=prune:(<pear:284><plum:612><prune:920>)
+
+Fruit Tree after DELETE(plum):
+G=prune:(G=banana:(<apple:970><banana:293>)
+--------|G=peach:(<orange:697><peach:957>)
+--------|G=prune:(<pear:284><prune:920>)
+
+Fruit Tree after DELETE(apricot):
+G=prune:(G=banana:(<apple:970><banana:293>)
+--------|G=peach:(<orange:697><peach:957>)
+--------|G=prune:(<pear:284><prune:920>)
+
+Exception in thread "main" java.lang.ClassCastException: class LeafNode cannot be cast to class InternalNode (LeafNode and InternalNode are in unnamed module of loader 'app')
+	at InternalNode.proposeRight(InternalNode.java:242)
+	at Tree23.delete(Tree23.java:316)
+	at Tree23.unitTest(Tree23.java:538)
+	at Tree23.main(Tree23.java:694)

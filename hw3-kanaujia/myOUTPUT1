@@ -1,0 +1,13 @@
+==> mode 1: random insert+search once
+
+ins(25)=true ins(28)=true ins(7)=true ins(33)=true ins(14)=true 
+ins(24)=true ins(34)=true ins(6)=true ins(18)=true ins(28)=true 
+ins(9)=true ins(33)=false ins(37)=true ins(23)=true ins(2)=true 
+ins(34)=true ins(32)=true ins(22)=true ins(36)=true ins(29)=true 
+This is the resulting tree:
+
+G=28:(G=28:(Exception in thread "main" java.lang.ClassCastException: class InternalNode cannot be cast to class LeafNode (InternalNode and LeafNode are in unnamed module of loader 'app')
+	at Tree23.showTree(Tree23.java:476)
+	at Tree23.showTree(Tree23.java:481)
+	at Tree23.showTree(Tree23.java:462)
+	at Tree23.main(Tree23.java:544)

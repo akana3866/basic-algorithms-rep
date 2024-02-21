@@ -1,0 +1,35 @@
+README file 
+
+THIS README FILE MUST BE INCLUDED IN EVERY PROGRAMMING ASSIGNMENT
+     (1) Name: Aditi Kanaujia
+     (2) NYU N-number: N-16922216
+     (3) Integrity Statement:
+     	       I needed help with understanding how to split 
+			   the nodes for insertion so I talked to Tanay Shah
+			   who shared the psuedocode for splitting nodes along
+			   with explaining to me in person the logic. He also
+			   gave some guidance on how the condition in my while
+			   loop should look like. However, I coded this assignment by 
+			   my self.
+	   	  -- Electronically Signed: [Aditi Kanaujia]" 
+     (4) Acknowledgements:
+	 	PLEASE describe any resources you have used
+			besides our lecture notes.
+		Name anyone you have discussed this homework with.
+		If there is nothing is acknowledge, say
+			Tanay Shah helped me along with my TA and the 
+			discord channel for additional guidance.
+---------------------------------------------------------------------
+Example:
+---------------------------------------------------------------------
+(1) Name: Chee Yap
+(2) NYU N-number: N-123456789
+(3) Integrity Statement:
+	I needed help with the file handling in Java, so I talked
+	to Dr. Marcelo Cicconet who shared the method ReadFile() in ATM.java
+	with me.  The rest of the code is my own work.
+	-- Electronically Signed: Chee Yap
+(4) Acknowledgements: 
+	I am in a study group with my TA Bingran and grader Avinav.
+---------------------------------------------------------------------
+
